@@ -1,3 +1,9 @@
+import os
+import sys
+
+# Allow running directly: python3 main.py
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+
 from tp1.utils.capture import Capture
 from tp1.utils.config import logger
 from tp1.utils.report import Report
